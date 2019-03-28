@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/text_kasus_9_1"
+        android:text="Belajar TextView yuk!"
+        android:textSize="24sp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        android:id="@+id/text_kasus_9_2"
+        android:text="Size-nya kecilan dikit"
+        android:textSize="30sp"
+        android:textColor="@android:color/black"
+        android:textStyle="italic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/text_kasus_9_1"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        android:id="@+id/text_kasus_9_3"
+        android:text="Teks dengan warna hijau!"
+        android:textSize="26sp"
+        android:textColor="#4CAF50"
+        android:textStyle="italic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/text_kasus_9_2"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        android:id="@+id/text_kasus_9_4"
+        android:text="Lebar Banget"
+        android:textSize="30sp"
+        android:textColor="@android:color/white"
+        android:textStyle="italic"
+        android:background="#F44336"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/text_kasus_9_3"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        android:id="@+id/text_kasus_9_5"
+        android:text="Ini adalah contoh sederhana dalam penggunaan widget TextView di Android Studio dibuat oleh"
+        android:textSize="24sp"
+        android:textColor="@android:color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/text_kasus_9_4"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        android:text="ahyarganteng.com"
+        android:textSize="40sp"
+        android:textColor="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:textAlignment="center"
+        app:layout_constraintTop_toBottomOf="@id/text_kasus_9_5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+</android.support.constraint.ConstraintLayout>
